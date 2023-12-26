@@ -1,0 +1,14 @@
+h1 {color:orange;text-align:center;font-weight:bold;font-family:algerian;font-size:30px;}
+h2 {color:blue;text-align:center;font-weight:bold;font-family:algerian;font-size:20px;}
+form { width:400px;height:200px;box-sizing:border-box;border-style:double;padding-left:10px;background-image: url("image3.jpg")}
+//form input {background-color:pink}
+a:hover {color:red}
+//a:visited {color:black}
+ol li {list-style-type:upper-alpha;}
+li {color: orange}
+body { 
+        background-image: url("image2.jpg");
+        background-repeat: no-repeat; 
+        background-size:cover;
+}
+#S {float: right;margin-right:150px ;margin-top:60px;border:2px solid red;}

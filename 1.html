@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>  <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="1.css"/>
+		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+	</head>
+	<body>
+	
+	   
+		<!--
+		<script>
+			let item = {name:"Nick", price:"Rs. 2000", qty:10};
+			document.write(item.name+" ;"+" "+item.price+" ;"+" "+item.qty+"<br/>");
+			item.show=function(){
+				document.write(this.name+" ;"+" "+this.price+" ;"+" "+this.qty+"<br/>");
+				
+			}
+			item.show();
+			
+			
+			
+			function item(name, price, qty){
+				this.name=name;
+				this.price=price;
+				this.qty=qty;
+				this.show=function(){
+					document.write(this.name+" ;"+" "+this.price+" ;"+" "+this.qty+"<br/>");
+				}
+			}
+			
+			let item1=new item("niec","2000",20);
+			let item2=new item("nidc","3000",20);
+			
+			//item2.show()
+			item.prototype.show=function(){
+					document.write(this.name+" ;"+" "+this.price+" ;"+" "+this.qty+"<br/>");
+			}
+			item1.show();
+			item2.show();
+			
+			let item = {name:"Nick", price:"Rs. 2000", qty:10};
+			let item1 = Object.create(item, {name:{value:"REB"}, price:{value:"Rs. 3000"}, qty:{value:20}});
+			document.write(item1.name+" "+item1.price+" "+item1.qty);
+		
+		
+		function item(name, price, qty){
+				this.name=name;
+				this.price=price;
+				this.qty=qty;
+		}
+		item.prototype.show=function(){
+					document.write(this.name+" ;"+" "+this.price+" ;"+" "+this.qty+"<br/>");
+		}
+		let item1=new item("niec","2000",20);
+		
+		function gc_item(name, price, qty, desc){
+			item.call(this, name, price, qty);
+			this.desc=desc;
+		}
+		gc_item.prototype=item.prototype;
+		gc_item.prototype.constructor=gc_item;
+		let gc1=new gc_item("PS5", "Rs. 50,000", 20, "Full HD");
+		gc1.show(); */
+		
+		/*
+		class item{
+			constructor(name, price){
+				this.name=name;
+				this.price=price;
+			}
+			show(){
+				document.write(this.name+" ;"+" "+this.price+"<br/>");
+			}
+		}
+		
+		let i1=new item("MI 7", "Rs.20,000")
+		i1.show();
+		
+		
+		let item1 = {
+				iname : "Reebok",
+				iprice : "Rs.2000",
+				show : function(){
+					document.write(this.iname+" "+this.iprice+"<br/>");
+				}
+		};
+		let item2 = Object.create(item1); // item2 will be replica of item1
+		let item3 = Object.create(item1, {
+											iname:{value:"PS5"},
+											iprice:{value:"Rs.40000"},
+											idesc:{value:"UHD 1080p"}
+										});
+
+		item1.show();
+		item2.show();
+		item3.show();
+		*/
+		/*
+		function item(name, price){
+			this.iname = name;
+			this.iprice = price;
+		}
+		item.prototype.show = function(){
+			document.write("iname: "+this.iname+" iprice: "+this.iprice+"<br/>");
+		}
+		function game_cons(name, price, desc){
+			item.call(this, name, price);
+			this.desc = desc;
+		}
+		//item.show.call(xyz)
+		game_cons.prototype =new item();
+		game_cons.prototype.constructor = game_cons;
+		let gc1 = new game_cons("PS5", "Rs 40000", "UHD 1080p");
+		gc1.show();
+		
+		
+		</script>
+		-->
+		<script>
+			function handler(event){
+				ev =event;
+				console.log(event.target.innerHTML);
+				event.target.style.color="blue";
+			}
+			
+		</script>
+		<div>
+			<p onclick="handler(event)">Popular Games</p>
+			<ul>
+				<li>Call of Duty</li>
+				<li>IGI</li>
+				<li>PUBG</li>
+			</ul>
+		</div>
+		
+	</body>
+</html>

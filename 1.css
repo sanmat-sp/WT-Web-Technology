@@ -1,0 +1,10 @@
+.box-orange{background:orange;
+			height:300px;
+			width:100px;}
+.box-blue{position:fixed;
+		  background:lightskyblue;
+		  height:100px;
+		  width:100px;
+		  right:5px;}
+.container{position:relative;
+		   background:lightgray;}

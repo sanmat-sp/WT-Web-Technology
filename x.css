@@ -1,0 +1,7 @@
+body {font-family:"Arial";margin-left:20%;margin-right:20%;text-align:center-left;background:ivory;color:black;}
+p{color:rgb(19, 39, 207);letter-spacing:1em;line-height:2em;}
+div.css-section{border:2px dotted red;padding:10px;}
+div.css-section p{color:green;}
+#A {border:2px dotted red;padding:10px;}
+.A{border:2px dotted red;padding:10px;}
+a:active{color:red;}

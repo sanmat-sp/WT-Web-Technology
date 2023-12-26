@@ -1,0 +1,11 @@
+#A {background-color:33ceff}
+#B {font-weight:bold}
+
+#counter{
+  font-size: 2px;
+}
+
+#mount{
+  display:flex;
+  flex-flow: row nowrap;
+}
